@@ -17,6 +17,7 @@ To run the Python script, ensure you have Python installed on your system and ex
 
 ```sh
 python challenge_1.py
+```
 
 ### SQL Script
 The `challenge_2.sql` file contains SQL statements for setting up your database schema and inserting test data. To use these statements:
