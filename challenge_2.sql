@@ -119,7 +119,7 @@ SELECT a.nombre_aerolinea, v.dia, COUNT(*) AS total_vuelos
 FROM vuelos v
 JOIN aerolineas a ON v.id_aerolinea = a.id_aerolinea
 GROUP BY a.nombre_aerolinea, v.dia
-HAVING COUNT(*) >= 2
+HAVING COUNT(*) > 2
 ORDER BY a.nombre_aerolinea, total_vuelos DESC;
 
 -- ANSWER
